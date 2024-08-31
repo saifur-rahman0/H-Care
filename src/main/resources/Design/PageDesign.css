@@ -1,0 +1,33 @@
+/*
+    Created on : Aug 29, 2024, 10:26:45 PM
+    Author     : Saifu
+*/
+.white-bg{
+    -fx-background-color: #fff;
+}
+
+.radius{
+    -fx-background-radius: 5px;
+}
+
+.textfield-1{
+    -fx-border-color: #000;
+    -fx-border-width: .3px;
+    -fx-font-family: Tahoma
+}
+.textfield-1:focused{
+    -fx-border-color: linear-gradient(to bottom right, #8e33bf, #ccb0dc);
+    -fx-border-width: 1px;
+}
+
+.btn-1{
+    -fx-background-color: linear-gradient(to bottom right, #8e33bf, #ccb0dc);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+}
+.btn-1:hover{
+    -fx-background-color: linear-gradient(to bottom right, #670d97, #e9deef);
+}
+
